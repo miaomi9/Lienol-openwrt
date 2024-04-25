@@ -23,8 +23,8 @@ jobs:
               with:
                   target_repo_token: ${{ secrets.GITHUB_TOKEN }}
                   upstream_sync_repo: Lienol/openwrt
-                  upstream_sync_branch: Branch
-                  target_sync_branch: Branch
+                  upstream_sync_branch: 23.05
+                  target_sync_branch: 23.05
                   test_mode: false
 
             - name: Check for Failure
